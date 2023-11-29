@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "name": "Chocolate Cake",
+    "description": "Indulge in the heavenly taste of our rich and moist chocolate cake. Topped with a luscious layer of chocolate ganache, it's the perfect treat for chocolate lovers. This decadent masterpiece is crafted with the finest cocoa, ensuring a deep and satisfying chocolate flavor in every bite. The velvety texture of the cake is complemented by the silky smooth ganache, creating a delightful symphony of richness. Whether you're celebrating a special occasion or simply craving a sweet escape, our Chocolate Cake is a delightful choice.\n\nAs you slice through the layers, you'll discover the moist crumb of the cake, and the ganache will melt in your mouth, leaving you with a blissful chocolate experience. Pair it with your favorite hot beverage or enjoy it with a scoop of vanilla ice cream for an indulgent treat. Our Chocolate Cake is a testament to the artistry of baking, combining premium ingredients and skilled craftsmanship to create a dessert that captivates the senses. Treat yourself to the ultimate chocolatey delight!",
+    "price": 225,
+    "image": "/chocolatecake.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Vanilla Cake",
+    "description": "Experience the timeless delight of our classic vanilla cake. Each slice is a symphony of moist vanilla cake layers adorned with velvety vanilla buttercream frosting. The simplicity of our Vanilla Cake is what makes it a cherished favorite for any occasion. We use the finest Madagascar vanilla beans to infuse the cake with an authentic and rich vanilla flavor. The layers are tender, and the buttercream is smooth, creating a perfect balance of sweetness and sophistication.\n\nOur Vanilla Cake is a versatile choice, suitable for birthdays, weddings, or casual gatherings. The aroma of vanilla will transport you to a world of pure delight as you savor each bite. Whether enjoyed on its own or dressed up with fresh berries, our Vanilla Cake is a true crowd-pleaser. Share the joy of this classic treat with friends and family, and create cherished moments together. With its timeless appeal, our Vanilla Cake is a celebration of the simple pleasures in life.",
+    "price": 200,
+    "image": "/vanillacake.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Red Velvet Cake",
+    "description": "Treat yourself to the luxurious taste of our velvety red velvet cake. Delicately crafted with a hint of cocoa and topped with dreamy cream cheese frosting, this cake is a true indulgence. Our Red Velvet Cake is a visual and culinary delight, featuring vibrant red layers that captivate the eyes and a rich, flavorful profile that captivates the taste buds. Every bite is a harmonious blend of velvety texture and delectable sweetness.\n\nThe cocoa undertones add depth to the cake, while the cream cheese frosting provides a perfect balance of tanginess. Whether you're celebrating a special occasion or simply craving a slice of luxury, our Red Velvet Cake is a sophisticated choice. Share it with loved ones or savor it on your own with a cup of coffee or tea. Experience the elegance and decadence of our Red Velvet Cake, where each slice is a celebration of flavor, texture, and style.",
+    "price": 400,
+    "image": "/RedVelvetCake.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Strawberry Shortcake",
+    "description": "Savor the freshness of our strawberry shortcake. Layers of light sponge cake, fresh strawberries, and fluffy whipped cream create a delightful symphony of flavors. Each component of this classic dessert is carefully balanced to ensure a harmonious and indulgent experience. The sponge cake is airy and moist, providing the perfect foundation for the vibrant strawberries and billowy whipped cream.\n\nOur Strawberry Shortcake is a celebration of the season's best strawberries. The natural sweetness of the berries complements the delicate sweetness of the cake and the richness of the whipped cream. Whether enjoyed during a summer picnic or as a sweet ending to a meal, our Strawberry Shortcake is a timeless and refreshing treat. Treat yourself to the taste of summer with this delightful dessert, and share the joy with friends and family.",
+    "price": 350,
+    "image": "/StrawberryShortcake.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Carrot Cake",
+    "description": "Indulge in the warmth of our moist carrot cake. Packed with grated carrots, crunchy walnuts, and crowned with smooth cream cheese frosting, it's a true taste of comfort. Our Carrot Cake is a classic favorite, offering a perfect balance of flavors and textures. Each bite is a journey through the sweetness of carrots, the crunch of walnuts, and the creaminess of the frosting.\n\nThe moist crumb of the cake reflects the care and precision that goes into its creation. Whether enjoyed with a cup of tea in the afternoon or served as a centerpiece for a special occasion, our Carrot Cake brings a touch of nostalgia and warmth. Embrace the timeless appeal of this beloved dessert, and let the comforting flavors transport you to moments of joy and togetherness.",
+    "price": 300,
+    "image": "/CarrotCake.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Lemon Blueberry Cake",
+    "description": "Delight in the zesty freshness of our lemon blueberry cake. Bursting with juicy blueberries and topped with a tangy lemon glaze, it's a perfect balance of sweet and citrus. Our Lemon Blueberry Cake is a celebration of vibrant flavors that dance on your palate with every bite. The light and fluffy texture of the cake is enhanced by the burst of blueberries, creating a symphony of taste and texture.\n\nThe zingy lemon glaze adds a delightful tartness that complements the sweetness of the blueberries. Whether served as a dessert for a summer gathering or enjoyed as a refreshing treat any time of the year, our Lemon Blueberry Cake is a versatile and delightful choice. Share the joy of this citrus-infused dessert with those you cherish, and let the bright flavors brighten your day.",
+    "price": 380,
+    "image": "/LemonBlueberryCake.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Caramel Pecan Cake",
+    "description": "Experience decadence with our caramel pecan cake. Rich caramel flavors, crunchy pecans, and a drizzle of caramel create a luxurious symphony of textures and tastes. Our Caramel Pecan Cake is a masterpiece of indulgence, designed to satisfy the most refined palates. The moist and tender cake layers are infused with the warmth of caramel, creating a depth of flavor that lingers on the tongue.\n\nEach bite is adorned with crunchy pecans, providing a delightful contrast to the silky smoothness of the caramel. Whether enjoyed as a centerpiece for a special occasion or as a well-deserved treat, our Caramel Pecan Cake is a celebration of richness and sophistication. Elevate your dessert experience with this decadent creation, and let the exquisite flavors transport you to a world of pure indulgence.",
+    "price": 400,
+    "image": "/CaramelPecanCake.jpg"
+  }
+]
