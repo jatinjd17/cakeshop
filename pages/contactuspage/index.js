@@ -7,7 +7,7 @@ function Contactus() {
         Contact Us
       </div>
       <div className=" mt-4 self-center font-bold text-xl lg:font-extrabold lg:text-xl">
-        Email: kjat20842@gmail.com
+        Email: kjat20842@gmail.com, KritikaP35@gmail.com
       </div>
     </div>
   );
