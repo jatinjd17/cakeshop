@@ -8,7 +8,7 @@ const Orderpage = () => {
   // Fetch data based on the id, or use the data passed from the previous page
 
   return (
-    <div className="flex flex-col justify-center w-screen">
+    <div className="flex flex-col justify-center w-screen mt-12">
       <div className="self-center font-extrabold text-3xl lg:text-6xl">
         CONGRATULATIONS
       </div>
@@ -27,7 +27,7 @@ const Orderpage = () => {
       </div>
       <div className="self-center font-medium text-lg">QTY: 1</div>
       <div className="self-center font-medium text-lg">
-        Total Amount: {price}
+        Total Amount: {`\u20B9`} {price}
       </div>
 
       {/* <h1 className=" self-center">Details Page</h1> */}

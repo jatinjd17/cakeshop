@@ -9,7 +9,7 @@ const AddtoCartPage = () => {
   // Fetch data based on the id, or use the data passed from the previous page
 
   return (
-    <div className="flex flex-col justify-center w-screen">
+    <div className="flex flex-col justify-center w-screen mt-12">
       <div className="self-center font-extrabold text-3xl">CART PAGE</div>
       <img
         className=" object-cover self-center rounded-lg mt-8 w-24"
@@ -27,7 +27,7 @@ const AddtoCartPage = () => {
         QTY: 1
       </div>
       <div className="self-center  font-bold rounded-lg mt-2 lg:mt-3">
-        Price: {price}
+        Price: {`\u20B9`} {price}
       </div>
 
       <div className="self-center bg-purple-400 text-white font-bold rounded-lg p-4 mt-6">

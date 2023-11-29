@@ -20,6 +20,9 @@ const DetailsPage = () => {
       {/* <h1 className=" self-center">Details Page</h1> */}
       {/* <p className="self-center">ID: {id}</p> */}
       <p className="self-center mt-6 font-extrabold mx-8 text-3xl "> {name}</p>
+      <p className="self-center mt-6 font-bold mx-8 text-3xl ">
+        Price: {`\u20B9`} {price}
+      </p>
 
       <Link
         className="self-center bg-yellow-400 text-white font-bold rounded-lg p-4 mt-6"
