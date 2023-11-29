@@ -9,7 +9,7 @@ function Navbar() {
     });
   };
   return (
-    <div className=" flex flex-row gap-40 p-5 items-center justify-center bg-slate-200 rounded-lg font-extrabold">
+    <div className=" flex flex-row gap-6 w-full lg:gap-40 lg:p-5 items-center justify-center bg-slate-200 rounded-lg lg:font-extrabold ">
       <div className="">CakeShop</div>
       <div>
         <Link

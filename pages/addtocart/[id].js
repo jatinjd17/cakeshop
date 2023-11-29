@@ -12,16 +12,21 @@ const AddtoCartPage = () => {
     <div className="flex flex-col justify-center w-screen">
       <div className="self-center font-extrabold text-3xl">CART PAGE</div>
       <img
-        className=" object-cover self-center rounded-lg mt-8"
+        className=" object-cover self-center rounded-lg mt-8 w-24"
         src={image}
         alt="My Image"
         height={400}
         width={400}
       />
+      <div className="self-center  font-bold rounded-lg mt-2 lg:mt-3">
+        {name}
+      </div>
       {/* <h1 className=" self-center">Details Page</h1> */}
       {/* <p className="self-center">ID: {id}</p> */}
-      <div className="self-center  font-bold rounded-lg p-4 mt-6">QTY: 1</div>
-      <div className="self-center  font-bold rounded-lg p-4 mt-6">
+      <div className="self-center  font-bold rounded-lg mt-2 lg:mt-3">
+        QTY: 1
+      </div>
+      <div className="self-center  font-bold rounded-lg mt-2 lg:mt-3">
         Price: {price}
       </div>
 

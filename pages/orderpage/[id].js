@@ -9,10 +9,19 @@ const Orderpage = () => {
 
   return (
     <div className="flex flex-col justify-center w-screen">
-      <div className="self-center font-extrabold text-6xl">CONGRATULATIONS</div>
-      <div className="self-center font-extrabold text-3xl">
+      <div className="self-center font-extrabold text-3xl lg:text-6xl">
+        CONGRATULATIONS
+      </div>
+      <div className="self-center font-extrabold lg:text-3xl">
         Your Order has been placed
       </div>
+      <img
+        className=" object-cover self-center rounded-lg mt-8 w-24 lg:w-72"
+        src={image}
+        alt="My Image"
+        height={400}
+        width={400}
+      />
       <div className="self-center font-medium text-lg mt-8">
         Order Product: {name}
       </div>
@@ -20,13 +29,7 @@ const Orderpage = () => {
       <div className="self-center font-medium text-lg">
         Total Amount: {price}
       </div>
-      <img
-        className=" object-cover self-center rounded-lg mt-8"
-        src={image}
-        alt="My Image"
-        height={400}
-        width={400}
-      />
+
       {/* <h1 className=" self-center">Details Page</h1> */}
       {/* <p className="self-center">ID: {id}</p> */}
       {/* <div className="self-center  font-bold rounded-lg p-4 mt-6">QTY: 1</div> */}

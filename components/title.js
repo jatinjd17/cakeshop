@@ -10,9 +10,9 @@ import {
 function Title() {
   return (
     <div>
-      <div className="flex flex-row items-center justify-center gap-28 mt-10">
+      <div className="flex flex-row items-center justify-center gap-5 lg:gap-28 mt-10">
         <div>
-          <div className=" font-extrabold text-5xl w-28 text-center">
+          <div className=" font-extrabold lg:text-5xl lg:w-28 text-center">
             Delight in <p className="text-yellow-300">Every</p> Bite at Your
             Bakery
           </div>
@@ -23,12 +23,18 @@ function Title() {
             offset={-70} // Adjust the offset based on your layout
             duration={500}
           >
-            <div className="mt-10 bg-yellow-500 text-center rounded-lg p-3 text-white font-bold">
+            <div className="mt-5 p-1 lg:mt-10 bg-yellow-500 text-center rounded-lg lg:p-3 text-white font-bold">
               Show All
             </div>
           </ScrollLink>
         </div>
-        <img src="/main.jpg" alt="My Image" height={400} width={400} />
+        <img
+          className="w-36 lg:w-96 "
+          src="/main.jpg"
+          alt="My Image"
+          height={400}
+          width={400}
+        />
       </div>
     </div>
   );

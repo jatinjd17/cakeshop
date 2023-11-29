@@ -41,7 +41,7 @@ function Allproducts() {
         >
           <h1 className="text-2xl font-bold mb-4">All Cakes</h1>
         </ScrollLink>
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid grid-cols-2 gap-2 lg:grid-cols-3 lg:gap-4">
           {jsonData.map((item) => (
             <div key={item.id} className="border p-4">
               <Link
@@ -62,8 +62,10 @@ function Allproducts() {
                   height={400}
                   width={400}
                 />
-                <p className="text-lg font-semibold">{item.name}</p>
-                <p className="text-lg font-bold text-gray-500">{`Price: \u20B9 ${item.price}`}</p>
+                <p className="text-base  lg:text-lg font-semibold">
+                  {item.name}
+                </p>
+                <p className="text-base lg:text-lg font-bold text-gray-500">{`Price: \u20B9 ${item.price}`}</p>
 
                 {/* <div className="text-blue-500 hover:underline cursor-pointer">
                   Details
@@ -82,7 +84,7 @@ function Allproducts() {
                     },
                   }}
                 >
-                  <div className="bg-yellow-400 text-white font-semibold text-lg p-2 rounded-lg">
+                  <div className="bg-yellow-400 text-white mt-2 text-center font-semibold text-xs p-1 lg:font-semibold lg:text-lg lg:p-2 rounded-lg">
                     Add To Cart
                   </div>
                 </Link>
@@ -98,7 +100,7 @@ function Allproducts() {
                     },
                   }}
                 >
-                  <div className="bg-purple-400 text-white font-semibold text-lg p-2 rounded-lg">
+                  <div className="bg-purple-400 text-white mt-2 text-center font-semibold text-xs p-1 lg:font-semibold lg:text-lg lg:p-2 rounded-lg">
                     Buy Now
                   </div>
                 </Link>
